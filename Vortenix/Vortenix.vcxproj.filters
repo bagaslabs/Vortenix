@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{21ebdf6b-bbca-44a4-a166-acf899abe62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\imgui">
+      <UniqueIdentifier>{af21c9fd-5ed8-486f-93fc-bea2d6a75e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ItemManager">
+      <UniqueIdentifier>{e03bfda3-acc5-48bc-8664-4009a22e778b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\https">
+      <UniqueIdentifier>{7fb10fbd-b768-4726-bf08-16511d58b61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enet">
+      <UniqueIdentifier>{dcc5af62-dad0-48fa-b753-ae7120231b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enet\Packet">
+      <UniqueIdentifier>{a425100f-b147-491c-926d-122465edaf55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enet\Packet\LoginPacket">
+      <UniqueIdentifier>{2eb8fcac-6f21-4f6b-a5c2-28675c7ea8f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enet\Packet\HelloPacket">
+      <UniqueIdentifier>{cc29f220-0b9d-4dfd-a347-998918b776c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enet\Packet\GameMessage">
+      <UniqueIdentifier>{183ce88e-e581-4b5b-ab92-9d1585d7237b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enet\Packet\GamePacket">
+      <UniqueIdentifier>{699542b7-0d8d-417b-83fe-0a6313b786a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enet\Packet\World">
+      <UniqueIdentifier>{a9742ce1-edda-42b3-81af-2095b7c66277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enet\Packet\TrackPacket">
+      <UniqueIdentifier>{f82c29f4-7f21-4a34-8cd0-76c1bed756ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enet\Packet\Executor">
+      <UniqueIdentifier>{70902b9e-862d-446c-a9d0-e39e3c68a509}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_demo.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_impl_glfw.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_tables.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
+      <Filter>Resource Files\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager\itemManager.h">
+      <Filter>Source Files\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="https\getServer.h">
+      <Filter>Source Files\https</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\enetClient.h">
+      <Filter>Source Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\Packet\LoginPacket\hash.h">
+      <Filter>Source Files\enet\Packet\LoginPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\Packet\LoginPacket\loginGenerator.h">
+      <Filter>Source Files\enet\Packet\LoginPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\handlePacket.h">
+      <Filter>Source Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\Packet\HelloPacket\helloPacket.h">
+      <Filter>Source Files\enet\Packet\HelloPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\Packet\GameMessage\gameMessage.h">
+      <Filter>Source Files\enet\Packet\GameMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\Packet\GamePacket\gamePacket.h">
+      <Filter>Source Files\enet\Packet\GamePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\Packet\GamePacket\OnCall.h">
+      <Filter>Source Files\enet\Packet\GamePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\Packet\TrackPacket\trackPacket.h">
+      <Filter>Source Files\enet\Packet\TrackPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\Packet\Executor\executor.h">
+      <Filter>Source Files\enet\Packet\Executor</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\Packet\World\world.h">
+      <Filter>Source Files\enet\Packet\World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ItemManager\items.json">
+      <Filter>Source Files\ItemManager</Filter>
+    </None>
+    <None Include="config.json">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="enet\Packet\LoginPacket\klv.json">
+      <Filter>Source Files\enet\Packet\LoginPacket</Filter>
+    </None>
+  </ItemGroup>
+</Project>
